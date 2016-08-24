@@ -26,7 +26,9 @@ import com.amazonaws.services.s3.AmazonS3Client;
 public class Constants {
 
     /** Default hostname for the S3 service endpoint */
-    public static String S3_HOSTNAME = "s3.amazonaws.com";
+//    public static String S3_HOSTNAME = "s3.amazonaws.com";
+    public static String S3_HOSTNAME = "s3.cn-north-1.amazonaws.com.cn";
+
 
     /** Service name for Amazon S3 */
     public static String S3_SERVICE_NAME = "Amazon S3";
